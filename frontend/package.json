@@ -1,0 +1,50 @@
+{
+  "name": "terraquant-ai",
+  "version": "1.0.0",
+  "description": "TerraQuant AI - Carbon Intelligence Platform",
+  "private": true,
+  "proxy": "http://127.0.0.1:8000",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "framer-motion": "^10.16.16",
+    "leaflet": "^1.9.4",
+    "lucide-react": "^0.294.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-leaflet": "^4.2.1",
+    "react-markdown": "^10.1.0",
+    "react-router-dom": "^6.20.0",
+    "react-scripts": "5.0.1",
+    "recharts": "^2.10.3",
+    "remark-gfm": "^4.0.1"
+  },
+  "devDependencies": {
+    "ajv": "^8.18.0",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.3.6"
+  },
+  "scripts": {
+    "start": "node ./node_modules/react-scripts/bin/react-scripts.js start",
+    "build": "node ./node_modules/react-scripts/bin/react-scripts.js build",
+    "test": "node ./node_modules/react-scripts/bin/react-scripts.js test",
+    "eject": "node ./node_modules/react-scripts/bin/react-scripts.js eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
